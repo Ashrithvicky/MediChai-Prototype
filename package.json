@@ -1,0 +1,33 @@
+{
+  "name": "gfg-enigma",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client:install": "npm install --prefix client",
+    "client:start": "npm start --prefix client",
+    "truffle:compile": "npm run compile --prefix truffle",
+    "truffle:install": "npm install --prefix truffle",
+    "truffle:migrate": "npm run migrate --prefix truffle",
+    "truffle:test": "npm run test --prefix truffle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karan9034/gfg-enigma.git"
+  },
+  "author": "Karan Agrawal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karan9034/gfg-enigma/issues"
+  },
+  "homepage": "https://github.com/Karan9034/gfg-enigma#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "buffer": "^6.0.3",
+    "identicon.js": "^2.3.3",
+    "ipfs-http-client": "^60.0.1",
+    "react-bootstrap": "^2.10.9",
+    "react-router-dom": "^7.5.0",
+    "react-scripts": "^5.0.1",
+    "web3": "^4.16.0"
+  }
+}
